@@ -1,10 +1,4 @@
-<!--
- * @Description: 
- * @Author: Kotori Y
- * @Date: 2021-05-18 19:37:17
- * @LastEditors: Kotori Y
- * @LastEditTime: 2021-05-18 20:12:36
- * @FilePath: \admetMesh-bot\readme.md
- * @AuthorMail: kotori@cbdd.me
--->
-# admetMesh-bot
+# admetMesh-Bot
+---
+⏰ Updated on Tue, 18 May 2021 13:16:59 GMT
+[![admetMesh-Bot](https://github.com/kotori-y/admetMesh-bot/actions/workflows/main.yml/badge.svg)](https://github.com/kotori-y/admetMesh-bot/actions/workflows/main.yml)
