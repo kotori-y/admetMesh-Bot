@@ -1,7 +1,7 @@
 {
   "name": "admetmesh-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!--\r  * @Description: \r  * @Author: Kotori Y\r  * @Date: 2021-05-18 19:37:17\r  * @LastEditors: Kotori Y\r  * @LastEditTime: 2021-05-18 20:12:36\r  * @FilePath: \\admetMesh-bot\\readme.md\r  * @AuthorMail: kotori@cbdd.me\r -->\r # admetMesh-bot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/kotori-y/admetMesh-bot#readme",
   "dependencies": {
-    "form-data": "^4.0.0"
-  }
+    "cheerio": "^1.0.0-rc.9",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {}
 }
