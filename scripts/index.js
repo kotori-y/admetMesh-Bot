@@ -3,14 +3,15 @@
  * @Author: Kotori Y
  * @Date: 2021-05-18 14:03:30
  * @LastEditors: Kotori Y
- * @LastEditTime: 2021-05-19 08:51:04
- * @FilePath: \admetMesh-bot\index.js
+ * @LastEditTime: 2021-05-19 09:25:24
+ * @FilePath: \admetMesh-bot\scripts\index.js
  * @AuthorMail: kotori@cbdd.me
  */
 
 const fetch = require("node-fetch");
 const cheerio = require("cheerio");
 const FormData = require("form-data");
+const load = require("./load");
 
 async function getTokenCookie() {
   const visitUrl = "https://admetmesh.scbdd.com/service/screening/index";
@@ -45,7 +46,7 @@ async function predict(smiles) {
 
   const resp = await fetch(postUrl, {
     method: "POST",
-    timeout: 180000,
+    timeout: 18000000000,
     body: form,
     headers: headers,
   });
@@ -71,8 +72,10 @@ async function getRes(smiles) {
 
 (async () => {
   try {
-    html = await getRes("c1ccccc1");
-    console.log(html);
+    const smis = await load.loadSmi();
+    console.log(smis)
+    const res = await getRes(smis);
+    console.log(res);
   } catch (e) {
     console.log(e);
   }

@@ -20,7 +20,7 @@ jobs:
       run: npm ci
     - name: Update Result
       run: node scripts/index.js > data/result/meshRes.csv
-    - name: Update Reade
+    - name: Update Readme
       run: node scripts/time.js > README.md
     - name: Commit change & Push
       run: |
