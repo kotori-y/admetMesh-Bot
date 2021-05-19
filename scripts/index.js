@@ -3,7 +3,7 @@
  * @Author: Kotori Y
  * @Date: 2021-05-18 14:03:30
  * @LastEditors: Kotori Y
- * @LastEditTime: 2021-05-19 09:25:24
+ * @LastEditTime: 2021-05-19 09:30:21
  * @FilePath: \admetMesh-bot\scripts\index.js
  * @AuthorMail: kotori@cbdd.me
  */
@@ -46,7 +46,7 @@ async function predict(smiles) {
 
   const resp = await fetch(postUrl, {
     method: "POST",
-    timeout: 18000000000,
+    timeout: 180000000,
     body: form,
     headers: headers,
   });
