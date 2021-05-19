@@ -3,7 +3,7 @@
  * @Author: Kotori Y
  * @Date: 2021-05-18 14:03:30
  * @LastEditors: Kotori Y
- * @LastEditTime: 2021-05-19 09:30:21
+ * @LastEditTime: 2021-05-19 09:33:06
  * @FilePath: \admetMesh-bot\scripts\index.js
  * @AuthorMail: kotori@cbdd.me
  */
@@ -73,7 +73,6 @@ async function getRes(smiles) {
 (async () => {
   try {
     const smis = await load.loadSmi();
-    console.log(smis)
     const res = await getRes(smis);
     console.log(res);
   } catch (e) {
