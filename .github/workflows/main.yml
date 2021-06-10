@@ -3,7 +3,7 @@ name: admetMesh-Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '10,40 * * * *'
 
 jobs:
   build:
