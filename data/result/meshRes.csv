@@ -1,3 +1,9 @@
-TypeError: Cannot read property '0' of undefined
-    at getTokenCookie (/home/runner/work/admetMesh-Bot/admetMesh-Bot/scripts/index.js:27:50)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
+{ FetchError: network timeout at: https://admetmesh.scbdd.com/service/screening/index
+    at Timeout.<anonymous> (/home/runner/work/admetMesh-Bot/admetMesh-Bot/node_modules/node-fetch/lib/index.js:1454:13)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  message:
+   'network timeout at: https://admetmesh.scbdd.com/service/screening/index',
+  type: 'request-timeout' }
