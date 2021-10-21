@@ -27,6 +27,6 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -am ":robot: update meshRes.csv automatically"
-          git pull --ff-only
+          git pull origin master --rebase
           git push git push -u origin master -f   
 
