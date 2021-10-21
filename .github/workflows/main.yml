@@ -28,4 +28,4 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -am ":robot: update meshRes.csv automatically"
           git pull
-          git push
+          git push -f
